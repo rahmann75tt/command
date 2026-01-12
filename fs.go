@@ -78,7 +78,7 @@ func (cfs *cmdFS) doInit(ctx context.Context) error {
 
 	m := cfs.Machine
 	for {
-		if _, err := Read(ctx, m, args...); err == nil || !NotFound(err) {
+		if err := Do(ctx, m, args...); err == nil || !NotFound(err) {
 			break // Found a machine that can execute filesystem commands.
 		}
 		if u, ok := m.(Unsheller); ok {
@@ -91,9 +91,7 @@ func (cfs *cmdFS) doInit(ctx context.Context) error {
 	}
 	cfs.Machine = m
 
-	_, err := Read(ctx, cfs, "tar")
-	cfs.hasTar = !NotFound(err)
-
+	cfs.hasTar = !NotFound(Do(ctx, cfs, "tar"))
 	return nil
 }
 
