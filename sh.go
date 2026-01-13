@@ -132,6 +132,11 @@ func (sh *Sh) Env(ctx context.Context, key string) string {
 	return Env(ctx, sh.m, key)
 }
 
+// Shutdown shuts down the underlying machine if it is a [ShutdownMachine].
+func (sh *Sh) Shutdown(ctx context.Context) error {
+	return Shutdown(ctx, sh.m)
+}
+
 // Handle registers a machine to handle the specified command.
 // Returns the shell for method chaining.
 func (sh *Sh) Handle(command string, machine Machine) *Sh {

@@ -41,6 +41,7 @@ var defaultSkips = map[string][]string{
 		"OS",         // Sh caches OS, manually implemented
 		"Arch",       // Sh caches Arch, manually implemented
 		"Env",        // Sh must probe sh.m, manually implemented
+		"Shutdown",   // Sh must delegate to sh.m, manually implemented
 		"Handle",     // Manually implemented in sh.go
 		"HandleFunc", // Manually implemented in sh.go
 		"Unshell",    // Manually implemented in sh.go

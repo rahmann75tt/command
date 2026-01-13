@@ -106,16 +106,3 @@ func (sh *Sh) Read(
 ) (string, error) {
 	return Read(ctx, sh, args...)
 }
-
-// Shutdown shuts down the machine if it implements [ShutdownMachine].
-// Returns nil if the machine does not implement ShutdownMachine.
-//
-// The context passed to Shutdown is derived using context.WithoutCancel to
-// ensure cleanup can complete even after the parent context is canceled.
-//
-// This is a convenience method that calls [Shutdown].
-func (sh *Sh) Shutdown(
-	ctx context.Context,
-) error {
-	return Shutdown(ctx, sh)
-}

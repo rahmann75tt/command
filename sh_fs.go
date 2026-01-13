@@ -86,11 +86,7 @@ func (sh *Sh) Append(
 
 // AppendBuffer returns a lazy-executing writer for appending to the file at
 // name. The file is opened for appending on first Write(), not when
-// AppendBuffer is called. Errors from opening the file are returned from
-// Write(), not AppendBuffer().
-//
-// Use AppendBuffer when you only need to append bytes and don't need File
-// metadata (Path, Stat, etc.). For metadata access, use Append instead.
+// AppendBuffer is called.
 //
 // Example:
 //
@@ -183,11 +179,6 @@ func (sh *Sh) Create(
 
 // CreateBuffer returns a lazy-executing writer for the file at name.
 // The file is created on first Write(), not when CreateBuffer is called.
-// Errors from creating the file are returned from Write(), not
-// CreateBuffer().
-//
-// Use CreateBuffer when you only need to write bytes and don't need File
-// metadata (Path, Stat, etc.). For metadata access, use Create instead.
 //
 // Example:
 //
@@ -327,10 +318,6 @@ func (sh *Sh) Open(
 
 // OpenBuffer returns a lazy-executing reader for the file at name.
 // The file is opened on first Read(), not when OpenBuffer is called.
-// Errors from opening the file are returned from Read(), not OpenBuffer().
-//
-// Use OpenBuffer when you only need to read bytes and don't need File
-// metadata (Path, Stat, etc.). For metadata access, use Open instead.
 //
 // Example:
 //
@@ -515,8 +502,7 @@ func (sh *Sh) Truncate(
 //
 // Walk does not guarantee any particular order (lexicographic or
 // breadth-first). Implementations may choose whatever order is most
-// efficient. For guaranteed lexicographic order within each directory,
-// use [lesiw.io/fs.ReadDir].
+// efficient.
 //
 // Walk does not follow symbolic links. Entries are yielded for symbolic
 // links themselves, but they are not traversed.
